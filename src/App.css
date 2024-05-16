@@ -1,0 +1,73 @@
+body {
+  background: lightcoral;
+}
+.landing-page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Змінено на flex-start, щоб назва була близько до верхнього краю */
+  padding-top: 50px; /* Доданий padding-top для відступу від верхнього краю */
+}
+
+.landing-page-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 0;
+  color: rgba(145, 14, 206, 0.596);
+}
+
+.coin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.coin .img {
+  margin-bottom: 10px;
+}
+.coin .img img {
+  border-radius: 50%;
+}
+.btns {
+  display: flex;
+  justify-content: space-between; /* Рівномірно розподіляє кнопки в ряду */
+  align-items: stretch;
+}
+
+.coin .btns {
+  display: flex;
+  width: 100%;
+}
+
+.coin .btn {
+  flex: 1; /* Рівномірно розподіляє простір між кнопками */
+  margin: 0 5px; /* Додайте простори навколо кнопок */
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-image: linear-gradient(to right, #ff8a00, #e52e71);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.coin .btn:hover {
+  background-image: linear-gradient(to right, #e52e71, #ff8a00);
+}
+.rotate-on-click {
+  transition: transform 0.5s ease;
+}
+
+.rotate-on-click:hover {
+  transform: rotate(360deg);
+}
