@@ -25,14 +25,20 @@ function LandingPage() {
           </div>
           <div className="btns">
             <div className="btn">
-              <a href="https://yourlink.com">Telegram</a>
+              <a href="https://t.me/pssnfrenchy" target="_blank">
+                Telegram
+              </a>
             </div>
             <div className="btn">
-              <a href="https://yourlink.com">X</a>
+              <a href="https://x.com/pissinfrenchy" target="_blank">
+                X
+              </a>
             </div>
 
             <div className="btn">
-              <a href="https://yourlink.com">Buy</a>
+              <a href="pissinfrenchy.fun" target="_blank">
+                Buy
+              </a>
             </div>
           </div>
         </div>

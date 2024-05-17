@@ -1,5 +1,6 @@
 body {
   background: lightcoral;
+  overflow: hidden;
 }
 .landing-page {
   width: 100vw;
