@@ -1,5 +1,5 @@
 body {
-  background: lightcoral;
+  background: rgb(105, 103, 236);
   overflow: hidden;
 }
 .landing-page {
@@ -37,6 +37,7 @@ body {
 }
 .coin .img img {
   border-radius: 50%;
+  max-width: 300px;
 }
 .btns {
   display: flex;
@@ -60,6 +61,7 @@ body {
   background-image: linear-gradient(to right, #ff8a00, #e52e71);
   cursor: pointer;
   transition: background-color 0.3s ease;
+  display: block;
 }
 
 .coin .btn:hover {

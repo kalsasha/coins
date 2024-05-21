@@ -6,40 +6,43 @@ function LandingPage() {
   const [isRotated, setIsRotated] = useState(false);
 
   const handleClick = () => {
-    setIsRotated(!isRotated); // Зміна стану обертання при кожному кліку
+    setIsRotated(!isRotated);
   };
   return (
     <div className="landing-page">
       <div className="landing-page-content">
         <div className="header">
-          <h1 className="title">Pissin Frenchy</h1>
+          <h1 className="title">Donald Tramp Mem Coin</h1>
         </div>
         <div className="coin">
           <div className="img">
             <img
               className={isRotated ? 'rotate-on-click' : ''}
               onClick={handleClick}
-              src="/1.jpg"
-              alt="Опис зображення"
+              src="/greattramp.jpg"
+              alt="DTMem"
             />
           </div>
           <div className="btns">
-            <div className="btn">
-              <a href="https://t.me/pssnfrenchy" target="_blank">
-                Telegram
-              </a>
-            </div>
-            <div className="btn">
-              <a href="https://x.com/pissinfrenchy" target="_blank">
-                X
-              </a>
-            </div>
+            <a
+              className="btn"
+              href="https://t.me/+WGMfj9l7OaI1YmYy"
+              target="_blank"
+            >
+              Telegram
+            </a>
 
-            <div className="btn">
-              <a href="pissinfrenchy.fun" target="_blank">
-                Buy
-              </a>
-            </div>
+            <a className="btn" href="https://x.com/dtmemcoin" target="_blank">
+              X
+            </a>
+
+            <a
+              className="btn"
+              href="https://pump.fun/EtDeB6d3Yjcs5mj9oNKdKmkuL8YYnkksVKjpUYNaR9PB"
+              target="_blank"
+            >
+              Buy
+            </a>
           </div>
         </div>
       </div>
