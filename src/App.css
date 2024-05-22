@@ -1,6 +1,11 @@
 body {
-  background: rgb(105, 103, 236);
+  background-image: url(lgbtcagedchi.jpg);
+  background-size: cover;
   overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 .landing-page {
   width: 100vw;

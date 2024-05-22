@@ -19,8 +19,8 @@ function LandingPage() {
             <img
               className={isRotated ? 'rotate-on-click' : ''}
               onClick={handleClick}
-              src="/greattramp.jpg"
-              alt="DTMem"
+              src="/1.jpg"
+              alt="Chi"
             />
           </div>
           <div className="btns">
