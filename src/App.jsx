@@ -12,7 +12,7 @@ function LandingPage() {
     <div className="landing-page">
       <div className="landing-page-content">
         <div className="header">
-          <h1 className="title">Donald Tramp Mem Coin</h1>
+          <h1 className="title">$LGBTCagedChi</h1>
         </div>
         <div className="coin">
           <div className="img">
