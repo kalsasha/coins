@@ -24,23 +24,19 @@ function LandingPage() {
             />
           </div>
           <div className="btns">
-            <a
-              className="btn"
-              href="https://t.me/+WGMfj9l7OaI1YmYy"
-              target="_blank"
-            >
+            <a className="btn" href="https://t.me/RedditOSOL" target="_blank">
               Telegram
             </a>
 
-            <a className="btn" href="https://x.com/dtmemcoin" target="_blank">
+            <a
+              className="btn"
+              href="https://x.com/reddtonsolana"
+              target="_blank"
+            >
               X
             </a>
 
-            <a
-              className="btn"
-              href="https://pump.fun/8TiNe2wuLne3uYiy74gfhDnEDRgQCNX2B1tV4SVZuVRF"
-              target="_blank"
-            >
+            <a className="btn" href="https://pump.fun/" target="_blank">
               Buy
             </a>
           </div>
