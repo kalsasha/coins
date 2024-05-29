@@ -12,14 +12,14 @@ function LandingPage() {
     <div className="landing-page">
       <div className="landing-page-content">
         <div className="header">
-          <h1 className="title">$LGBTCagedChi</h1>
+          <h1 className="title">Reddit On Solana</h1>
         </div>
         <div className="coin">
           <div className="img">
             <img
               className={isRotated ? 'rotate-on-click' : ''}
               onClick={handleClick}
-              src="/1.jpg"
+              src="/1.webp"
               alt="Chi"
             />
           </div>
