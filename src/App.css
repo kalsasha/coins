@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(12, 25, 43);
+  background-color: rgb(230, 132, 20);
   overflow: hidden;
 
   width: 100%;
@@ -39,8 +39,7 @@ body {
   margin-bottom: 10px;
 }
 .coin .img img {
-  border-radius: 50%;
-  max-width: 500px;
+  max-width: 1000px;
 }
 .btns {
   display: flex;
@@ -61,14 +60,14 @@ body {
   padding: 10px 20px;
   font-size: 16px;
   color: #0c0000;
-  background-image: linear-gradient(to right, #00ffa3, #03e1ff, #dc1fff);
+  background-image: linear-gradient(to left, #f8faf9, #ff1f3d);
   cursor: pointer;
   transition: background-color 0.3s ease;
   display: block;
 }
 
 .coin .btn:hover {
-  background-image: linear-gradient(to right, #dc1fff, #03e1ff, #00ffa3);
+  background-image: linear-gradient(to right, #ff1f3d, #1616e7);
 }
 .rotate-on-click {
   transition: transform 0.5s ease;
