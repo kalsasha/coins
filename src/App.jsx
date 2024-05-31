@@ -40,7 +40,11 @@ function LandingPage() {
               X
             </a>
 
-            <a className="btn" href="" target="_blank">
+            <a
+              className="btn"
+              href="https://pump.fun/F2U1dwq228dcELaZVNqvRDdgF9ecogqUBkHcK6tZpump"
+              target="_blank"
+            >
               Buy
             </a>
           </div>
