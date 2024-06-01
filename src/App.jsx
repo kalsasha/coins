@@ -24,11 +24,7 @@ function LandingPage() {
             />
           </div>
           <div className="btns">
-            <a
-              className="btn"
-              href="https://t.me/puremenslove"
-              target="_blank"
-            >
+            <a className="btn" href="https://t.me/puremenslove" target="_blank">
               Telegram
             </a>
 
@@ -37,9 +33,10 @@ function LandingPage() {
               href="https://x.com/dnldslttltrip"
               target="_blank"
             >
+              Twitter
             </a>
 
-            <a className="btn" href="" target="_blank">
+            <a className="btn" href="https://pump.fun/9D6vb8KHVVWjcxEiWsD3Dr8qNcFTMdeu542ffYbCpump" target="_blank">
               Buy
             </a>
           </div>
