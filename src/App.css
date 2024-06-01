@@ -25,7 +25,16 @@ body {
 
 .title {
   margin-bottom: 0;
-  color: #f8f7f7ef;
+  color: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
 }
 
 .coin {
@@ -60,7 +69,16 @@ body {
   padding: 10px 20px;
   font-size: 16px;
   color: #0c0000;
-  background-image: linear-gradient(to left, #f8faf9, #ff1f3d);
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
   cursor: pointer;
   transition: background-color 0.3s ease;
   display: block;
@@ -75,4 +93,22 @@ body {
 
 .rotate-on-click:hover {
   transform: rotate(360deg);
+}
+.gradient-text {
+  font-size: 48px;
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }

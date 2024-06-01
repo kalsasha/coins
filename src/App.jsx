@@ -12,7 +12,7 @@ function LandingPage() {
     <div className="landing-page">
       <div className="landing-page-content">
         <div className="header">
-          <h1 className="title">Donald`s Little Trip</h1>
+          <h1 className="title gradient-text">Pure Men`s Love #LGBT</h1>
         </div>
         <div className="coin">
           <div className="img">
@@ -26,7 +26,7 @@ function LandingPage() {
           <div className="btns">
             <a
               className="btn"
-              href="https://t.me/donaldslittletrip"
+              href="https://t.me/puremenslove"
               target="_blank"
             >
               Telegram
@@ -37,14 +37,9 @@ function LandingPage() {
               href="https://x.com/dnldslttltrip"
               target="_blank"
             >
-              X
             </a>
 
-            <a
-              className="btn"
-              href="https://pump.fun/F2U1dwq228dcELaZVNqvRDdgF9ecogqUBkHcK6tZpump"
-              target="_blank"
-            >
+            <a className="btn" href="" target="_blank">
               Buy
             </a>
           </div>
